@@ -1,7 +1,7 @@
 pragma solidity ^0.5.0;
 
-contract TodoList {
-  uint public taskCount = 0;
+contract TodoList { // same as filename
+  uint public taskCount = 0; state variable -  keeps the state pf smart contract in blockchain
 
   struct Task {
     uint id;
